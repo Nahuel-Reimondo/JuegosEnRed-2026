@@ -6,9 +6,25 @@ using UnityEngine;
 
 public class PhotonManager : MonoBehaviourPunCallbacks
 {
+    public static PhotonManager Instance;
+
+    public Action OnRoom;
+    
    void Awake()
    {
-        PhotonNetwork.ConnectUsingSettings();   
+       if (Instance == null)
+       {
+           Instance = this;
+       }
+       else
+       {
+           Destroy(this);
+       }
+   }
+
+   void Start()
+   {
+       PhotonNetwork.ConnectUsingSettings();
    }
 
    public override void OnConnectedToMaster()
@@ -28,5 +44,7 @@ public class PhotonManager : MonoBehaviourPunCallbacks
        string roomName = PhotonNetwork.CurrentRoom.Name;
        int playerCount = PhotonNetwork.CurrentRoom.PlayerCount;
        Debug.Log("Joined Room: " + roomName + ", PlayerCount:" + playerCount);
+       
+       OnRoom?.Invoke();
    }
 }
