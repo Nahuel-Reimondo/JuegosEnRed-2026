@@ -43,8 +43,11 @@ public class PhotonManager : MonoBehaviourPunCallbacks
    {
        string roomName = PhotonNetwork.CurrentRoom.Name;
        int playerCount = PhotonNetwork.CurrentRoom.PlayerCount;
-       Debug.Log("Joined Room: " + roomName + ", PlayerCount:" + playerCount);
        
        OnRoom?.Invoke();
+       
+       bool isMaster = PhotonNetwork.IsMasterClient;
+       
+       Debug.Log("Joined Room: " + roomName + ", PlayerCount:" + playerCount + ", IsMasterClient: " + isMaster);
    }
 }
