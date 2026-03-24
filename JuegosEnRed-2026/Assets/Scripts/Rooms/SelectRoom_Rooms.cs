@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Photon.Realtime;
@@ -13,7 +14,9 @@ public class SelectRoom_Rooms : MonoBehaviour
     [SerializeField] private Button createRoomButton;
     [SerializeField] private GameObject createRoomPanel;
     
-    private List<RoomItem_Rooms> rooms; 
+    private List<RoomItem_Rooms> rooms = new List<RoomItem_Rooms>(); 
+    
+    public Action OnRoomSelected;
     
     private void OnEnable()
     {
@@ -22,6 +25,8 @@ public class SelectRoom_Rooms : MonoBehaviour
             ()=>PhotonManager_Rooms.Instance.JoinRandomRoom());
         
         createRoomButton.onClick.AddListener(DisplayCreateRoomPanel);
+        
+        UpdateRoomList(PhotonManager_Rooms.Instance.GetRoomList());
     }
 
     private void OnDisable()
@@ -43,6 +48,9 @@ public class SelectRoom_Rooms : MonoBehaviour
 
     private void ClearList()
     {
+        if (rooms == null && rooms.Count == 0)
+            return;
+        
         foreach (var room in rooms)
         {
             Destroy(room.gameObject);
@@ -72,7 +80,7 @@ public class SelectRoom_Rooms : MonoBehaviour
 
     private void JoinSelectedRoom(RoomItem_Rooms roomItem)
     {
-        PhotonManager_Rooms.Instance.JoinRoom(roomItem.name);
+        PhotonManager_Rooms.Instance.JoinRoom(roomItem.RoomName);
     }
 
     

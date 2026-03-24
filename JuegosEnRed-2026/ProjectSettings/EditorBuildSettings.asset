@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/1-Spawn&Sync.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/2-Rooms.unity
+    guid: 3936cb28b37e3e445bf86d5cf6c6a5b2
+  - enabled: 1
+    path: Assets/Scenes/2-Rooms-Game.unity
+    guid: 70640ef8f9adfe24ba9de27ecf442d45
   m_configObjects: {}
