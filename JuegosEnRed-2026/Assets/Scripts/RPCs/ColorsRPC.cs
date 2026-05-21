@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using ExitGames.Client.Photon;
 using Photon.Pun;
+using Photon.Realtime;
 using UnityEngine;
 
 public class ColorsRPC : MonoBehaviourPunCallbacks
@@ -59,6 +61,16 @@ public class ColorsRPC : MonoBehaviourPunCallbacks
     {
         //selectedPhotonView.RPC("ChangeColor", selectedPhotonView.Controller, "Green");
         selectedPhotonView.RPC("ChangeColor", RpcTarget.All, "Green");
+        
+        selectedPhotonView.RPC("ChangeColor", RpcTarget.All, "Blue");
     }
 
+    
+    private void SendMoveUnitsToTargetPositionEvent()
+    {
+        object[] content = new object[] { new Vector3(10.0f, 2.0f, 5.0f), 1, 2, 5, 10 }; 
+        RaiseEventOptions raiseEventOptions = new RaiseEventOptions 
+            { Receivers = ReceiverGroup.All }; 
+        
+    }
 }
