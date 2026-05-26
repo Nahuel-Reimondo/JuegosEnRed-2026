@@ -1,0 +1,10 @@
+{
+  "Nombre": "Nahuel",
+  "Nivel": 42,
+  "VidaActual": 94.5,
+  "Inventario": [
+    "Espada de Fuego",
+    "Poción de Vida",
+    "Escudo de Madera"
+  ]
+}
