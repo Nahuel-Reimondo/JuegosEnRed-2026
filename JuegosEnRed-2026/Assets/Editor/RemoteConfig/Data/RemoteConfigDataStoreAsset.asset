@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"552e86d3-4fa9-401a-86f4-533ed874b66f\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"EnemiesSpeed\",\r\n      \"type\": \"float\",\r\n     
+    \"value\": 15.0\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"552e86d3-4fa9-401a-86f4-533ed874b66f\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"EnemiesSpeed\",\r\n      \"type\": \"float\",\r\n     
+    \"value\": 15.0\r\n    }\r\n  }\r\n]"
+  _environments: "[\r\n  {\r\n    \"projectId\": \"d85db722-ea97-4956-8415-ce03699ca3f4\",\r\n   
+    \"name\": \"production\",\r\n    \"id\": \"f5739f21-2675-486b-8e11-00e7f4d561a4\",\r\n   
+    \"isDefault\": true,\r\n    \"createdAt\": \"2026-05-30T03:39:21Z\",\r\n    \"updatedAt\":
+    \"2026-05-30T03:39:21Z\"\r\n  },\r\n  {\r\n    \"projectId\": \"d85db722-ea97-4956-8415-ce03699ca3f4\",\r\n   
+    \"name\": \"dev\",\r\n    \"id\": \"98677206-4a7f-47f1-bc7d-ed8c814be76f\",\r\n   
+    \"isDefault\": false,\r\n    \"createdAt\": \"2026-05-30T03:50:12Z\",\r\n   
+    \"updatedAt\": \"2026-05-30T03:50:12Z\"\r\n  }\r\n]"
