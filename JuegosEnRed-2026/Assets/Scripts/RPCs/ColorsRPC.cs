@@ -61,8 +61,6 @@ public class ColorsRPC : MonoBehaviourPunCallbacks
     {
         //selectedPhotonView.RPC("ChangeColor", selectedPhotonView.Controller, "Green");
         selectedPhotonView.RPC("ChangeColor", RpcTarget.All, "Green");
-        
-        selectedPhotonView.RPC("ChangeColor", RpcTarget.All, "Blue");
     }
 
     

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-English (en)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-English (en)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c98d242989b240b4cb7f6329dff755a1
+  m_SerializeEntries:
+  - m_GUID: c52e02dbfc56c9b4181e8950124d7abd
+    m_Address: BirdParty
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 1edb61d2eedff6645ba76add02b1b59f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8968c8e9e6f915e41b9d013f390ca931, type: 2}
+    - {fileID: 11400000, guid: 8d5771ce7f5944b458dcf17eaf3690ef, type: 2}
+    - {fileID: 11400000, guid: ba0de5767ad765a4cbee098330b20c17, type: 2}

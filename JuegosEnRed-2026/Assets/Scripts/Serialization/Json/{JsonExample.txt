@@ -1,6 +1,6 @@
 {
   "Nombre": "Nahuel",
-  "Nivel": 42,
+  "Nivel": 82,
   "VidaActual": 94.5,
   "Inventario": [
     "Espada de Fuego",

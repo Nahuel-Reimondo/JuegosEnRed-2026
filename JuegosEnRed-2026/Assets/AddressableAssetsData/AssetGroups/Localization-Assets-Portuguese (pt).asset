@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Portuguese (pt)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Portuguese (pt)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: eb0b1373587247b4db244c49c81869bb
+  m_SerializeEntries:
+  - m_GUID: cc8ed8206b802a542bfb9732899dc03f
+    m_Address: CatDreams
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 1edb61d2eedff6645ba76add02b1b59f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0259ada66dcdbd54888e6e7e00b86056, type: 2}
+    - {fileID: 11400000, guid: 08d5f727b91e1c843996a8d75bac2f5e, type: 2}
+    - {fileID: 11400000, guid: 67b97ba2f95ef2c47a25e05b6c4d8799, type: 2}

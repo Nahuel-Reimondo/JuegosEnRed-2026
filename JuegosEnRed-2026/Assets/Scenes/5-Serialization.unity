@@ -379,8 +379,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55aaa9e1c473363428b8acbac22e6958, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerDataDisplay: {fileID: 0}
-  path: 
+  playerDataDisplay: {fileID: 606009432}
+  path: Assets/Scripts/Serialization/Json/{JsonExample.txt
 --- !u!4 &406483977
 Transform:
   m_ObjectHideFlags: 0
