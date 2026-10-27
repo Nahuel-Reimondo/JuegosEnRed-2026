@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
   m_Name: RemoteConfigDataStoreAsset
   m_EditorClassIdentifier: 
-  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"fcf0ab72-d94f-4a16-8b07-021709678861\"\r\n   
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"c2958b9d-92fd-4612-92a4-56f264c6e8ef\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"EnemiesSpeed\",\r\n      \"type\": \"float\",\r\n     
-    \"value\": 150.0\r\n    }\r\n  }\r\n]"
-  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"fcf0ab72-d94f-4a16-8b07-021709678861\"\r\n   
+    \"value\": 10.0\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"c2958b9d-92fd-4612-92a4-56f264c6e8ef\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"EnemiesSpeed\",\r\n      \"type\": \"float\",\r\n     
-    \"value\": 150.0\r\n    }\r\n  }\r\n]"
+    \"value\": 10.0\r\n    }\r\n  }\r\n]"
   _environments: "[\r\n  {\r\n    \"projectId\": \"d85db722-ea97-4956-8415-ce03699ca3f4\",\r\n   
     \"name\": \"production\",\r\n    \"id\": \"f5739f21-2675-486b-8e11-00e7f4d561a4\",\r\n   
     \"isDefault\": true,\r\n    \"createdAt\": \"2026-05-30T03:39:21Z\",\r\n    \"updatedAt\":
